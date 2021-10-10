@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer{
+    width: 100%;
+    margin: auto;
+}
+
+
+header{
+    height: 40px;
+    background-color: #212121;
+    color: white;
+}
+
+main{ 
+    height: auto;
+    color: white;
+    border-top: 40px;
+}
+
+
+div, nav{
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header div{ 
+    height: 100%;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+a.go{
+    background-color: #F9A825;
+    /* background-color: rgba(255, 255, 0, 0.815); */
+    border-radius: 20%;
+}
+
+a.sombra:hover{
+    background-color: red;
+    transition: 1s;
+    border-radius: 10%;
+}
+
+div#caixa-total{
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div#caixa-texto, div#caixa-email{
+    width: 50%;
+    height: 250px;
+    font-family: Helvetica;
+    padding: 10px;
+}
+
+div#caixa-texto{
+    border-right: 1px dotted #212121;
+    color: black;
+}
+
+div#caixa-email{
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: auto;
+    }
+
+.txt{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #212121;
+}
+
+input.btn{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.rodape{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+#indicacao{
+    color: #212121;
+    font-family: helvetica;
+}
